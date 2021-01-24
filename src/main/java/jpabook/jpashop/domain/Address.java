@@ -12,8 +12,8 @@ public class Address {
     private String street;
     private String zipcode;
 
-    protected Address() throws Exception { // jpa 스펙상 추가한 생성자
-        throw new Exception("기본생성자 호출됨");
+    public Address() throws Exception { // jpa 스펙상 추가한 생성자
+//        throw new Exception("기본생성자 호출됨");
     }
 
     public Address(String city, String street, String zipcode) {
